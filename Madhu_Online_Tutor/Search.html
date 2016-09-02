@@ -1,0 +1,82 @@
+<!-- Madhu_Appojireddy-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Madhu's Online Tutor</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="js/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/example.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+   <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+</head>
+<body>
+   <div class="header-top">
+       <div class="wrap"> 
+	         <div class="logo">
+				<a href="Home.html"><img src="images/logo.png" alt=""/></a>
+			 </div>
+                                 <div class="button_box2">
+                                  <form class="form-wrapper-2 cf">
+                                     <input type="text" placeholder="Courses..." required/>
+                                       <button id="get-data" type="submit">Search</button>
+                                   </form>
+                                 </div>
+		     <div class="cssmenu">
+			  <nav id="nav" role="navigation">
+				<a href="#nav" title="Show navigation">Show navigation</a>
+				<a href="#" title="Hide navigation">Hide navigation</a>
+                                 
+				<ul class="clearfix">
+					<li class="active"><a href="Home.html">Home</a></li>
+				   
+				
+				    
+					
+				</ul>
+			  </nav>
+		     </div>
+		    
+	   </div>
+	 </div>
+      
+        <div class="header-bottom" id="home"><p align="center"><b><u>Directly press the Search Button</u></b></p></br>
+         <p align="center"><b><u>Courses(JSON DATA from Coursera API) Based on Id: Name</u></b></p>
+        <div id="show-data" class="scroll"> </div>
+        </div>        
+
+          <div class="footer-bottom2">
+	 		  <div class="wrap">
+	     	  	<div class="copy">
+				   <p>&copy; 2016 Madhu Appojireddy</p>
+			    </div>
+			    <div class="social">	
+				   <ul>	
+					  <li class="facebook"><a href="https://www.facebook.com/maddyreddy.k.a"><i class="fa fa-facebook"><span> </span></a></li>
+					  <li class="linkedin"><a href="http://www.linkedin.com/in/madhuappojireddy"><i class="fa fa-linkedin"><span> </span></a></li>
+					  		
+				   </ul>
+			    </div>
+			    <div class="clear"></div>
+			  </div>
+     	   </div>            
+	  
+               
+               
+        
+</body>
+</html>
+
+    	
+    	
+            

@@ -1,0 +1,326 @@
+﻿<!-- Madhu_Appojireddy-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Madhu's Online Tutor</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="js/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/example.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+   <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+</head>
+<body>
+   <div class="header-top">
+       <div class="wrap"> 
+	         <div class="logo">
+				<a href="#"><img src="images/logo.png" alt=""/></a>
+			 </div>
+                                 <!--<div class="button_box2">
+                                  <form class="form-wrapper-2 cf">
+                                     <input type="text" placeholder="Courses..." required>
+                                       <button type="submit" onclick="window.location.href='Search.html'">Search</button>
+                                   </form>
+                                 </div>-->
+		     <div class="cssmenu">
+			  <nav id="nav" role="navigation">
+				<a href="#nav" title="Show navigation">Show navigation</a>
+				<a href="#" title="Hide navigation">Hide navigation</a>
+                                 
+				<ul class="clearfix">
+					<li class="active"><a href="#home" class="scroll">Home</a></li>
+				        <li><a href="#about" class="scroll">Courses</a></li>
+				        <li><a href="Search.html">Search Courses</a></li>   
+					<li><a href="#contact" class="scroll">Contact</a></li>
+					<div class="clear"></div>
+				</ul>
+			  </nav>
+		     </div>
+		    <div class="clear"></div>
+	   </div>
+	 </div>
+     <div class="header-bottom" id="home">
+    	 <div class="wmuSlider example1" style="height: 551px;">
+			   <article style="position: relative; width: 100%; opacity: 1;"> 
+				   	<div class="banner-wrap">
+				   		<h1 class="m_1">Welcome to Madhu's online tutor</h1>
+				   		<p class="m_2">An easy and smart way for learning</p>
+						<img src="images/banner.png" alt=""/>
+					</div>
+				 </article>
+				 <article style="position: absolute; width: 100%; opacity: 0;"> 
+				   	<div class="banner-wrap">
+				   		<h1 class="m_1">Search for Courses</h1>
+				   		<p class="m_2">Enroll and Learn</p>
+						<img src="images/banner1.png" alt=""/>
+					</div>
+				 </article>
+		         <a class="wmuSliderPrev">Previous</a><a class="wmuSliderNext">Next</a>
+		  </div>
+		  <script src="js/jquery.wmuSlider.js"></script> 
+			<script>
+       		   $('.example1').wmuSlider();         
+   			</script> 	
+	 </div>
+     <div class="content-top" id="about">
+	 		<h2 class="m_3">Most Popular Courses</h2>
+	 		<p class="m_4"></p>
+	 		<div class="box1">
+				<div class="col_1_of_3 span_1_of_3">
+					<img src="images/icon1.png" alt=""/>
+				    <div class="desc">
+						<h3>Data Science</h3>
+						<p>Data science is an interdisciplinary field about processes and systems...</p>
+					</div>
+				</div>
+				<div class="col_1_of_3 span_1_of_3">
+					<img src="images/icon2.png" alt=""/>
+				    <div class="desc">
+						<h3>Computer Programming</h3>
+						<p>Computer programming (often shortened to programming) is a process...</p>
+					</div>
+				</div>
+				<div class="col_1_of_3 span_1_of_3">
+					<img src="images/icon3.png" alt=""/>
+				    <div class="desc">
+						<h3>Mathematics</h3>
+						<p>Mathematics is the study of topics such as quantity (numbers), structure...</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+	 	</div>
+	 	<div class="content-middle" id="team"> 
+	 	  <div class="wrap">
+	 	  	<h2 class="m_3">Data Science</h2>
+	 	  	<p class="m_5">Popular courses...</p>
+	 		<div class="box2">
+	 		   <div class="col_1_of_4 span_1_of_4"><a href="#">
+	 		   	<div class="view view-fifth">
+                    <img src="images/pic.jpg" />
+                    <div class="mask">
+                        <h2>Hover Style #5</h2>
+                        <p>Learn more about Machine Learning...</p>
+                        <a href="#" class="info">Read More</a>
+                    </div>
+                    <h3>Machine Learning</h3>
+					<h4>Many more...</h4>
+					
+				  </div>
+				</a></div>
+			   <div class="col_1_of_4 span_1_of_4"><a href="#">
+	 		   	<div class="view view-fifth">
+                    <img src="images/pic1.jpg" />
+                    <div class="mask">
+                        <h2>Hover Style #5</h2>
+                        <p>Learn more about Data Science...</p>
+                        <a href="#" class="info">Read More</a>
+                    </div>
+                    <h3>Data Science</h3>
+					<h4>Many More...</h4>
+					
+				  </div>
+				</a></div>
+				<div class="col_1_of_4 span_1_of_4"><a href="#">
+	 		   	 <div class="view view-fifth">
+                    <img src="images/pic2.jpg" />
+                    <div class="mask">
+                        <h2>Hover Style #5</h2>
+                        <p>Learn More about MySql...</p>
+                        <a href="#" class="info">Read More</a>
+                    </div>
+                    <h3>MySql</h3>
+					<h4>Many More...</h4>
+					
+				  </div>
+				</a></div>
+				<div class="col_1_of_4 span_1_of_4"><a href="#">
+	 		   	 <div class="view view-fifth">
+                    <img src="images/pic3.jpg" />
+                    <div class="mask">
+                        <h2>Hover Style #5</h2>
+                        <p>Learn more about BigData...</p>
+                        <a href="#" class="info">Read More</a>
+                    </div>
+                    <h3>BigData</h3>
+					<h4>Many More...</h4>
+					
+				  </div>
+				</a></div>
+				<div class="clear"></div>
+		     </div>
+	 	    </div>
+	 	</div>
+	    <div class="middle-bottom" id="portfolio">
+	 	  <div class="wrap">
+	 		<h3 class="m_7">Computer Programming</h3>
+	 	  	<p class="m_8">Popular Courses...</p>
+			   <ul id="flexiselDemo3">
+				<li><img src="images/pic4.jpg" /><p><a href="#">Python for Everybody</a></p></li>
+				<li><img src="images/pic5.jpg" /><p><a href="#">Algorithms</a></p></li>
+				<li><img src="images/pic6.jpg" /><p><a href="#">Ruby on Rails</a></p></li>
+				<li><img src="images/pic7.jpg" /><p><a href="#">Cryptography</a></p></li>
+			   </ul>
+		   <script type="text/javascript">
+			$(window).load(function() {
+				$("#flexiselDemo1").flexisel();
+				$("#flexiselDemo2").flexisel({
+					enableResponsiveBreakpoints: true,
+			    	responsiveBreakpoints: { 
+			    		portrait: { 
+			    			changePoint:480,
+			    			visibleItems: 1
+			    		}, 
+			    		landscape: { 
+			    			changePoint:640,
+			    			visibleItems: 2
+			    		},
+			    		tablet: { 
+			    			changePoint:768,
+			    			visibleItems: 3
+			    		}
+			    	}
+			    });
+			
+				$("#flexiselDemo3").flexisel({
+					visibleItems: 4,
+					animationSpeed: 1000,
+					autoPlay: true,
+					autoPlaySpeed: 3000,    		
+					pauseOnHover: true,
+					enableResponsiveBreakpoints: true,
+			    	responsiveBreakpoints: { 
+			    		portrait: { 
+			    			changePoint:480,
+			    			visibleItems: 1
+			    		}, 
+			    		landscape: { 
+			    			changePoint:640,
+			    			visibleItems: 2
+			    		},
+			    		tablet: { 
+			    			changePoint:768,
+			    			visibleItems: 3
+			    		}
+			    	}
+			    });
+			    
+			});
+		</script>
+		<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+     </div>
+	<!--/slider -->
+    </div>
+ 	
+		 </section>
+       </div>
+	   <div class="footer" >
+	 		<div class="footer-top">
+	 			<div class="wrap"> 
+                                  <h3 class="m_7">Top Rated Courses</h3>
+	 	  	           
+			   <ul id="flexiselDemo4">
+				<li><img src="images/pic8.jpg" /><p><a href="#">HTML5,CSS,JavaScript</a></p></li>
+				<li><img src="images/pic9.jpg" /><p><a href="#">Power Electronics</a></p></li>
+				<li><img src="images/pic4.jpg" /><p><a href="#">Python for Everybody</a></p></li>
+				<li><img src="images/pic10.jpg" /><p><a href="#">Classical Music</a></p></li>
+			   </ul>
+
+
+ <script type="text/javascript">
+			$(window).load(function() {
+				
+			
+				$("#flexiselDemo4").flexisel({
+					visibleItems: 4,
+					animationSpeed: 1000,
+					autoPlay: true,
+					autoPlaySpeed: 3000,    		
+					pauseOnHover: true,
+					enableResponsiveBreakpoints: true,
+			    	responsiveBreakpoints: { 
+			    		portrait: { 
+			    			changePoint:480,
+			    			visibleItems: 1
+			    		}, 
+			    		landscape: { 
+			    			changePoint:640,
+			    			visibleItems: 2
+			    		},
+			    		tablet: { 
+			    			changePoint:768,
+			    			visibleItems: 3
+			    		}
+			    	}
+			    });
+			    
+			});
+		</script>
+		<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+				
+	 			</div>
+	 		</div>
+	 		<div class="footer-bottom">
+	 		  <div class="wrap">
+	     	  	<div class="copy">
+				   <p>© 2016 Madhu Appojireddy</p>
+			    </div>
+			    <div class="social">	
+				   <ul>	
+					  <li class="facebook"><a href="https://www.facebook.com/maddyreddy.k.a"><i class="fa fa-facebook"><span> </span></a></li>
+					  <li class="linkedin"><a href="http://www.linkedin.com/in/madhuappojireddy"><i class="fa fa-linkedin"><span> </span></a></li>
+					  		
+				   </ul>
+			    </div>
+			    <div class="clear"></div>
+			  </div>
+     	   </div>
+     	   <div class="map" id="contact">
+			  <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d62182.131649956646!2d77.58401348649714!3d13.074881549121352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x3bae19cf5923a6b7%3A0xfe055ff80e8a2bc7!2sVenkateshapura+Bus+Stop%2C+Tejpunj+Rd%2C+Sri+Venkateshpura+Layout%2C+Sampigehalli%2C+Bengaluru%2C+Karnataka+560077%2C+India!3m2!1d13.0748003!2d77.61903319999999!4m0!5e0!3m2!1sen!2sus!4v1472743744754" style="color:#666;text-align:left;font-size:12px"></a></small>
+		   </div>
+	 	</div>
+        <script type="text/javascript">
+			$(document).ready(function() {
+			
+				var defaults = {
+		  			containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+		 		};
+				
+				
+				$().UItoTop({ easingType: 'easeOutQuart' });
+				
+			});
+		</script>
+           <a href="#" id="toTop" style="display: block;">Up<span id="toTopHover" style="opacity: 1;"></span></a>
+	      <script src="js/jquery.scrollTo.js"></script>
+	  <script>
+	$(document).ready(function() {
+		$('#nav').onePageNav({
+			begin: function() {
+			console.log('start')
+			},
+			end: function() {
+			console.log('stop')
+			}
+		});
+	});
+	</script>
+</body>
+</html>
+
+    	
+    	
+            
